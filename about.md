@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: application
 title: About
 permalink: /about/
 ---
