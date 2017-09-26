@@ -1,0 +1,11 @@
+// Function rem
+//
+// Example:
+// font size: 16px
+//
+// .class-name
+//   font-size: rem(16)
+// -> return: 1rem
+
+@function rem($size)
+  @return (($size * 1px) / $default-font-size) * 1rem
