@@ -1,0 +1,52 @@
+---
+layout: application
+permalink: spacing.html
+---
+
+<h1 class="heading heading--1">Espaços</h1>
+
+Referência no PG para espaços:
+<a href="https://projects.invisionapp.com/d/main#/console/10642590/227740828/preview" target="_blank">InVision</a>
+<br />
+<br />
+<strong>Local do arquivo:</strong>
+<br />
+<pre>app/assets/stylesheets/utils/_spacing.sass</pre>
+<br />
+<br />
+
+<h2 class="heading heading--1">Valores para cada espaço</h2>
+<p class="paragraph paragraph--lg">
+  Exemplo código:
+</p>
+
+{% highlight sass %}
+  $space-xxs: 2px
+  $space-xs:  4px
+  $space-s:   8px
+  $space-m:   16px
+  $space-st:  24px
+  $space-l:   32px
+  $space-xl:  40px
+  $space-xxl: 48px
+  $space-j:   64px
+{% endhighlight %}
+
+<p class="paragraph paragraph--lg">
+  <strong>Como usar:</strong>
+</p>
+
+{% highlight sass %}
+  .bloco
+    margin: $space-m $space-s
+{% endhighlight %}
+
+<p class="paragraph paragraph--lg">
+  <strong>Retorno no CSS:</strong>
+</p>
+
+{% highlight css %}
+  .bloco {
+    margin: 16px 8px;
+  }
+{% endhighlight %}
