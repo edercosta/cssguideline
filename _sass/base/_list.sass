@@ -1,0 +1,40 @@
+.list
+  color: currentColor
+  list-style: none
+  margin-left: 14px
+
+.list--check
+  margin-left: 23px
+
+.list--lg
+  font-size: rem(16)
+  line-height: rem(26)
+
+.list--md
+  font-size: rem(14)
+  line-height: rem(20)
+
+.list--sm
+  font-size: rem(13)
+  line-height: rem(16)
+
+.list__item
+  margin-bottom: $space-s
+
+  &:before
+    float: left
+    margin-left: -14px
+    margin-right: $space-s
+    width: auto
+
+.list__item--sm
+  margin-bottom: $space-xs
+
+.list__item--bullet
+  &:before
+    content: "\2022" // Bullet
+
+.list__item--check
+  &:before
+    content: url(../images/check.svg)
+    margin-left: -23px
