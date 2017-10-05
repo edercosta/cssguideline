@@ -3,6 +3,9 @@
 .highlight, .highlight .w {
   color: #93a1a1;
   background-color: #002b36;
+  padding: 10px 5px;
+  border-radius: 5px;
+  overflow: auto;
 }
 .highlight .err {
   color: #002b36;
